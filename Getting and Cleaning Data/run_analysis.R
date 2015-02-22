@@ -1,7 +1,8 @@
 library(reshape2)
 library(plyr)
+require(devtools)
 
-setwd("C:/Users/rcoleman/Documents/GitHub/Coursera/Getting and Cleaning Data/New folder/")
+setwd("C:\Users\rcoleman\Documents\GitHub\Coursera\datasciencecoursera\Getting and Cleaning Data\UCI HAR Dataset")
 #################################Import Training Datasets#########################################
 xTrain <- read.table("UCI HAR Dataset/train/X_train.txt")
 
