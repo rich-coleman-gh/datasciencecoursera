@@ -1,6 +1,7 @@
 library(reshape2)
 library(plyr)
 require(devtools)
+source_gist(4497585)
 
 setwd("C:/Users/rcoleman/Documents/GitHub/Coursera/datasciencecoursera/Getting and Cleaning Data/")
 #################################Import Training Datasets#########################################
