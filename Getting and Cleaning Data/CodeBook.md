@@ -2,7 +2,7 @@
 
 <h2> Variable Naming conventions </h2>
 All variable names adhere to the following conventions with the following substrings:  
-	* 't' denotes time domain  
+	*'t' denotes time domain  
 	* 'f' denotes variable is in frequency (Hz)  
 	* 'body' denotes acceleration due to participants body    	* 'gravity' denotes acceleration due to gravity    	* 'mean' the mean or average of observations values    	* 'std' the standard deviation of observations values    	* 'x,y,z' the x,y,z coordinate value for observation respectiviely    	
 <h3> Variables </h3>
