@@ -8,7 +8,7 @@ All variable names adhere to the following conventions with the following substr
 	* 'body' denotes acceleration due to participants body    	* 'gravity' denotes acceleration due to gravity    	* 'mean' the mean or average of observations values    	* 'std' the standard deviation of observations values    	* 'x,y,z' the x,y,z coordinate value for observation respectiviely    	
 <h3> Variables </h3>
 subject_id    	* ID of participants ranging from 1 - 30  
-activity    	* The physical activity the participant was doing at the time of observations    		* 1 WALKING    		* 2 WALKING_UPSTAIRS    		* 3 WALKING_DOWNSTAIRS    		* 4 SITTING    		* 5 STANDING    		* 6 LAYING
+activity    	* The physical activity the participant was doing at the time of observations    		* 1 WALKING    		* 2 WALKING_UPSTAIRS    		* 3 WALKING_DOWNSTAIRS    		* 4 SITTING    		* 5 STANDING    		* 6 LAYING  
 tBodyAcc_mean_X  
 tBodyAcc_mean_Y  
 tBodyAcc_mean_Z  
