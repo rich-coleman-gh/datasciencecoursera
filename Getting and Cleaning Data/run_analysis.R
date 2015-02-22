@@ -2,7 +2,7 @@ library(reshape2)
 library(plyr)
 require(devtools)
 
-setwd("C:\Users\rcoleman\Documents\GitHub\Coursera\datasciencecoursera\Getting and Cleaning Data\UCI HAR Dataset")
+setwd("C:/Users/rcoleman/Documents/GitHub/Coursera/datasciencecoursera/Getting and Cleaning Data/")
 #################################Import Training Datasets#########################################
 xTrain <- read.table("UCI HAR Dataset/train/X_train.txt")
 
@@ -63,4 +63,4 @@ colnames(dfTidy)=gsub('-','_',colnames(dfTidy))
 colnames(dfTidy)=gsub('\\(','',colnames(dfTidy))
 colnames(dfTidy)=gsub(')','',colnames(dfTidy))
 
-write.table(dfTidy,"UCI HAR Dataset/tidyData.txt",row.names=FALSE)
+write.table(dfTidy,"tidyData.txt",row.names=FALSE)
